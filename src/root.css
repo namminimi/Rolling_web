@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap'); /* Poppins */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css'); /* pretendard */
+
+:root {
+    /*     color     */
+    /* purple */
+    --rolling-purple-100: #f8f0ff;
+    --rolling-purple-200: #ecd9ff;
+    --rolling-purple-300: #dcb9ff;
+    --rolling-purple-400: #c894fd;
+    --rolling-purple-500: #ab57ff;
+    --rolling-purple-600: #9935ff;
+    --rolling-purple-700: #861dee;
+    --rolling-purple-800: #6e0ad1;
+    --rolling-purple-900: #5603a7;
+
+    /* orange */
+    --rolling-orange-100: #fff0d6;
+    --rolling-orange-200: #ffe2ad;
+    --rolling-orange-300: #ffc583;
+    --rolling-orange-400: #ffae65;
+    --rolling-orange-500: #ff8832;
+
+    /* blue */
+    --rolling-blue-100: #e2f5ff;
+    --rolling-blue-200: #b1e4ff;
+    --rolling-blue-300: #7cd2ff;
+    --rolling-blue-400: #34b9ff;
+    --rolling-blue-500: #00a2fe;
+
+    /* green */
+    --rolling-green-100: #e4fbdc;
+    --rolling-green-200: #d0f5c3;
+    --rolling-green-300: #9be282;
+    --rolling-green-400: #60cf37;
+    --rolling-green-500: #2ba600;
+
+    /* grayscale */
+    --rolling-gray-100: #f6f6f6;
+    --rolling-gray-200: #eee;
+    --rolling-gray-300: #ccc;
+    --rolling-gray-400: #999;
+    --rolling-gray-500: #555;
+    --rolling-gray-600: #4a4a4a;
+    --rolling-gray-700: #3a3a3a;
+    --rolling-gray-800: #2b2b2b;
+    --rolling-gray-900: #181818;
+
+    /* white */
+    --rolling-white: #fff;
+
+    /* black */
+    --rolling-black: #000;
+
+    /* red */
+    --rolling-red: #dc3a3a;
+
+    /* background */
+    --rolling-background: #f6f8ff;
+}
