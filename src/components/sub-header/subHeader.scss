@@ -1,0 +1,122 @@
+.to-wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 13px 0;
+    .to-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3 {
+            color: var(--rolling-gray-800);
+            font-family: Pretendard;
+            font-size: 28px;
+            font-weight: 500;
+        }
+        .to-block-right {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .to-profiles-wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                border-right: 1px solid var(--rolling-gray-200);
+                .to-profiles {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    li {
+                        img {
+                            width: 28px;
+                        }
+                        div {
+                            height: 28px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 5px 6px;
+                            border-radius: 30px;
+                            background-color: var(--rolling-white);
+                            color: var(--rolling-gray-500);
+                            font-family: Pretendard;
+                            font-size: 12px;
+                            font-weight: 400;
+                            border: 1px solid #e3e3e3;
+                        }
+                    }
+                    li:not(:first-child) {
+                        margin-left: -13px;
+                    }
+                }
+                .to-profiles-write {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-right: 28px;
+                    color: var(--rolling-gray-900);
+                    font-family: Pretendard;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+            .to-emoji-wrap {
+                display: flex;
+                padding-left: 28px;
+                padding-right: 13px;
+                border-right: 1px solid var(--rolling-gray-200);
+                .emoji-list {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 8px;
+                    margin-right: 8px;
+                    li {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 4px;
+                        font-size: 16px;
+                        height: 36px;
+                        padding: 8px 12px;
+                        border-radius: 32px;
+                        background-color: rgba(0, 0, 0, 0.54);
+                        span {
+                            color: var(--rolling-white);
+                            font-family: Pretendard;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                img {
+                    width: 24px;
+                }
+                .to-add-emoji {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 6px 16px;
+                    border: 1px solid var(--rolling-gray-300);
+                    border-radius: 6px;
+                    margin-left: 14px;
+                    img {
+                        width: 24px;
+                    }
+                }
+            }
+            .share-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 6px 16px;
+                border: 1px solid var(--rolling-gray-300);
+                border-radius: 6px;
+                margin-left: 13px;
+                img {
+                    width: 24px;
+                }
+            }
+        }
+    }
+}

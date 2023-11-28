@@ -24,85 +24,88 @@
                 justify-content: flex-start;
                 align-items: center;
                 gap: 20px;
-                .list-card {
-                    width: 275px;
-                    height: 260px;
-                    padding: 30px 24px 20px;
-                    background-color: var(--rolling-purple-200);
-                    border-radius: 16px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    h3 {
-                        color: var(--rolling-gray-900);
-                        font-family: Pretendard;
-                        font-size: 24px;
-                        font-weight: 700;
-                        margin-bottom: 12px;
-                    }
-                    .list-profiles {
+                a {
+                    text-decoration: none;
+                    .list-card {
+                        width: 275px;
+                        height: 260px;
+                        padding: 30px 24px 20px;
+                        background-color: var(--rolling-purple-200);
+                        border-radius: 16px;
                         display: flex;
-                        justify-content: flex-start;
-                        align-items: center;
-                        li {
-                            margin-bottom: 12px;
-                            img {
-                                width: 28px;
-                            }
-                            div {
-                                height: 28px;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                padding: 5px 6px;
-                                border-radius: 30px;
-                                background-color: var(--rolling-white);
-                                color: var(--rolling-gray-500);
-                                font-family: Pretendard;
-                                font-size: 12px;
-                                font-weight: 400;
-                            }
-                        }
-                        li:not(:first-child) {
-                            margin-left: -13px;
-                        }
-                    }
-                    .list-write-length {
-                        display: flex;
-                        justify-content: flex-start;
-                        align-items: center;
-                        color: var(--rolling-gray-700);
-                        font-family: Pretendard;
-                        font-size: 16px;
-                        font-weight: 500;
+                        flex-direction: column;
+                        justify-content: space-between;
                         h3 {
-                            margin-bottom: 0;
+                            color: var(--rolling-gray-900);
+                            font-family: Pretendard;
+                            font-size: 24px;
+                            font-weight: 700;
+                            margin-bottom: 12px;
                         }
-                    }
-                    .list-card-line {
-                        margin-top: 43px;
-                        margin-bottom: 16px;
-                        border: 1px solid rgba(0, 0, 0, 0.12);
-                    }
-                    .emoji-list {
-                        display: flex;
-                        justify-content: flex-start;
-                        align-items: center;
-                        gap: 8px;
-                        li {
+                        .list-profiles {
                             display: flex;
-                            justify-content: space-between;
+                            justify-content: flex-start;
                             align-items: center;
-                            gap: 4px;
+                            li {
+                                margin-bottom: 12px;
+                                img {
+                                    width: 28px;
+                                }
+                                div {
+                                    height: 28px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 5px 6px;
+                                    border-radius: 30px;
+                                    background-color: var(--rolling-white);
+                                    color: var(--rolling-gray-500);
+                                    font-family: Pretendard;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                }
+                            }
+                            li:not(:first-child) {
+                                margin-left: -13px;
+                            }
+                        }
+                        .list-write-length {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            color: var(--rolling-gray-700);
+                            font-family: Pretendard;
                             font-size: 16px;
-                            height: 36px;
-                            padding: 8px 12px;
-                            border-radius: 32px;
-                            background-color: rgba(0, 0, 0, 0.54);
-                            span {
-                                color: var(--rolling-white);
-                                font-family: Pretendard;
-                                font-weight: 400;
+                            font-weight: 500;
+                            h3 {
+                                margin-bottom: 0;
+                            }
+                        }
+                        .list-card-line {
+                            margin-top: 43px;
+                            margin-bottom: 16px;
+                            border: 1px solid rgba(0, 0, 0, 0.12);
+                        }
+                        .emoji-list {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            gap: 8px;
+                            li {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                gap: 4px;
+                                font-size: 16px;
+                                height: 36px;
+                                padding: 8px 12px;
+                                border-radius: 32px;
+                                background-color: rgba(0, 0, 0, 0.54);
+                                span {
+                                    color: var(--rolling-white);
+                                    font-family: Pretendard;
+                                    font-weight: 400;
+                                }
                             }
                         }
                     }

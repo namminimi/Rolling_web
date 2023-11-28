@@ -12,139 +12,183 @@ const List = () => {
                 <div className="list_01-wrap list-wrap">
                     <h2>인기 롤링 페이퍼🔥</h2>
                     <div className="list-slide">
-                        <div className="list-card">
-                            <h3>To.Sowon</h3>
-                            <ul className="list-profiles">
-                                <li>
-                                    <img src={profile_01} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <img src={profile_02} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <img src={profile_03} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <div>+27</div>
-                                </li>
-                            </ul>
-                            <div className="list-write-length">
-                                <h3>30</h3>명이 작성했어요!
+                        <Link to={'/post'}>
+                            <div className="list-card">
+                                <h3>To.Sowon</h3>
+                                <ul className="list-profiles">
+                                    <li>
+                                        <img
+                                            src={profile_01}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src={profile_02}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src={profile_03}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <div>+27</div>
+                                    </li>
+                                </ul>
+                                <div className="list-write-length">
+                                    <h3>30</h3>명이 작성했어요!
+                                </div>
+                                <div className="list-card-line"></div>
+                                <ul className="emoji-list">
+                                    <li>
+                                        👍<span>20</span>
+                                    </li>
+                                    <li>
+                                        😍<span>20</span>
+                                    </li>
+                                    <li>
+                                        😢<span>7</span>
+                                    </li>
+                                </ul>
                             </div>
-                            <div className="list-card-line"></div>
-                            <ul className="emoji-list">
-                                <li>
-                                    👍<span>20</span>
-                                </li>
-                                <li>
-                                    😍<span>20</span>
-                                </li>
-                                <li>
-                                    😢<span>7</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="list-card">
-                            <h3>To.Sowon</h3>
-                            <ul className="list-profiles">
-                                <li>
-                                    <img src={profile_01} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <img src={profile_02} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <img src={profile_03} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <div>+27</div>
-                                </li>
-                            </ul>
-                            <div className="list-write-length">
-                                <h3>30</h3>명이 작성했어요!
+                        </Link>
+                        <Link to={'/post'}>
+                            <div className="list-card">
+                                <h3>To.Sowon</h3>
+                                <ul className="list-profiles">
+                                    <li>
+                                        <img
+                                            src={profile_01}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src={profile_02}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src={profile_03}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <div>+27</div>
+                                    </li>
+                                </ul>
+                                <div className="list-write-length">
+                                    <h3>30</h3>명이 작성했어요!
+                                </div>
+                                <div className="list-card-line"></div>
+                                <ul className="emoji-list">
+                                    <li>
+                                        👍<span>20</span>
+                                    </li>
+                                    <li>
+                                        😍<span>20</span>
+                                    </li>
+                                    <li>
+                                        😢<span>7</span>
+                                    </li>
+                                </ul>
                             </div>
-                            <div className="list-card-line"></div>
-                            <ul className="emoji-list">
-                                <li>
-                                    👍<span>20</span>
-                                </li>
-                                <li>
-                                    😍<span>20</span>
-                                </li>
-                                <li>
-                                    😢<span>20</span>
-                                </li>
-                            </ul>
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="list_02-wrap list-wrap">
                     <h2>최근에 만든 롤링 페이퍼⭐</h2>
                     <div className="list-slide">
-                        <div className="list-card">
-                            <h3>To.Sowon</h3>
-                            <ul className="list-profiles">
-                                <li>
-                                    <img src={profile_01} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <img src={profile_02} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <img src={profile_03} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <div>+27</div>
-                                </li>
-                            </ul>
-                            <div className="list-write-length">
-                                <h3>30</h3>명이 작성했어요!
+                        <Link to={'/post'}>
+                            <div className="list-card">
+                                <h3>To.Sowon</h3>
+                                <ul className="list-profiles">
+                                    <li>
+                                        <img
+                                            src={profile_01}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src={profile_02}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src={profile_03}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <div>+27</div>
+                                    </li>
+                                </ul>
+                                <div className="list-write-length">
+                                    <h3>30</h3>명이 작성했어요!
+                                </div>
+                                <div className="list-card-line"></div>
+                                <ul className="emoji-list">
+                                    <li>
+                                        👍<span>20</span>
+                                    </li>
+                                    <li>
+                                        😍<span>20</span>
+                                    </li>
+                                    <li>
+                                        😢<span>7</span>
+                                    </li>
+                                </ul>
                             </div>
-                            <div className="list-card-line"></div>
-                            <ul className="emoji-list">
-                                <li>
-                                    👍<span>20</span>
-                                </li>
-                                <li>
-                                    😍<span>20</span>
-                                </li>
-                                <li>
-                                    😢<span>7</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="list-card">
-                            <h3>To.Sowon</h3>
-                            <ul className="list-profiles">
-                                <li>
-                                    <img src={profile_01} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <img src={profile_02} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <img src={profile_03} alt="프로필이미지" />
-                                </li>
-                                <li>
-                                    <div>+27</div>
-                                </li>
-                            </ul>
-                            <div className="list-write-length">
-                                <h3>30</h3>명이 작성했어요!
+                        </Link>
+                        <Link to={'/post'}>
+                            <div className="list-card">
+                                <h3>To.Sowon</h3>
+                                <ul className="list-profiles">
+                                    <li>
+                                        <img
+                                            src={profile_01}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src={profile_02}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src={profile_03}
+                                            alt="프로필이미지"
+                                        />
+                                    </li>
+                                    <li>
+                                        <div>+27</div>
+                                    </li>
+                                </ul>
+                                <div className="list-write-length">
+                                    <h3>30</h3>명이 작성했어요!
+                                </div>
+                                <div className="list-card-line"></div>
+                                <ul className="emoji-list">
+                                    <li>
+                                        👍<span>20</span>
+                                    </li>
+                                    <li>
+                                        😍<span>20</span>
+                                    </li>
+                                    <li>
+                                        😢<span>7</span>
+                                    </li>
+                                </ul>
                             </div>
-                            <div className="list-card-line"></div>
-                            <ul className="emoji-list">
-                                <li>
-                                    👍<span>20</span>
-                                </li>
-                                <li>
-                                    😍<span>20</span>
-                                </li>
-                                <li>
-                                    😢<span>20</span>
-                                </li>
-                            </ul>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </div>
