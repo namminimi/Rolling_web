@@ -1,0 +1,97 @@
+.color-case {
+    width: 100%;
+    max-width: 720px;
+    margin: 57px auto 0;
+    .color-case-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        h2 {
+            color: var(--rolling-gray-900);
+            font-family: Pretendard;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        input {
+            width: 100%;
+            height: 50px;
+            padding: 16px;
+            border-radius: 8px;
+            outline: 0;
+            border: 1px solid var(--rolling-gray-300);
+            margin-bottom: 50px;
+            color: var(--rolling-gray-500);
+            font-family: Pretendard;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .select-background {
+            color: var(--rolling-gray-900);
+            font-family: Pretendard;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        .case-description {
+            color: var(--rolling-gray-500);
+            font-family: Pretendard;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+        .category {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            border-radius: 6px;
+            background-color: var(--rolling-gray-100);
+            margin-bottom: 45px;
+            li {
+                width: 122px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 6px;
+                font-family: Pretendard;
+                font-size: 16px;
+                font-weight: 700;
+                cursor: pointer;
+                &:first-child {
+                    border: 2px solid var(--rolling-purple-700);
+                    color: var(--rolling-purple-700);
+                }
+            }
+        }
+        .background-image {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 69px;
+            li {
+                width: 168px;
+                height: 168px;
+                background-color: var(--rolling-orange-200);
+                border-radius: 16px;
+                border: 1px solid rgba(0, 0, 0, 0.08);
+                cursor: pointer;
+            }
+        }
+        button {
+            width: 100%;
+            background-color: var(--rolling-purple-600);
+            outline: 0;
+            border: 0;
+            padding: 14px 24px;
+            border-radius: 12px;
+            color: var(--rolling-white);
+            font-family: Pretendard;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+}

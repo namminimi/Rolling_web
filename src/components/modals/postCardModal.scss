@@ -1,0 +1,98 @@
+.post-card-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: none;
+    .card-modal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 600px;
+        height: 476px;
+        background-color: var(--rolling-white);
+        border-radius: 16px;
+        padding: 40px;
+        .post-card-block {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 15px;
+            width: 100%;
+            border-bottom: 1px solid var(--rolling-gray-200);
+            img {
+                display: inline-block;
+                flex-basis: 56px;
+                flex-shrink: 1;
+            }
+            .post-card-block-name {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                flex-grow: 2;
+                margin-left: 16px;
+                .name {
+                    display: flex;
+                    color: #000;
+                    font-family: Pretendard;
+                    font-size: 20px;
+                    font-weight: 400;
+                    h3 {
+                        color: #000;
+                        font-family: Pretendard;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                }
+                .tag {
+                    width: 41px;
+                    text-align: center;
+                    color: var(--rolling-green-500);
+                    background-color: var(--rolling-green-100);
+                    padding: 5px;
+                    border-radius: 4px;
+                    font-family: Pretendard;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+            .post-card-date {
+                color: var(--rolling-gray-400);
+                font-family: Pretendard;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+        .post-card-text {
+            flex-basis: 240px;
+            width: 100%;
+            color: var(--rolling-gray-600);
+            font-family: Pretendard;
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 400;
+            overflow: auto;
+        }
+        .card-modal-btn {
+            width: 120px;
+            height: 40px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            background-color: var(--rolling-purple-600);
+            color: var(--rolling-white);
+            font-family: Pretendard;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

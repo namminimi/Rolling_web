@@ -11,9 +11,9 @@ const Header = () => {
                     <img src={logo} alt="로고이미지" />
                     <h1>Rolling</h1>
                 </Link>
-                <a className="right-button" href="#none">
+                <Link to={'/post/1'} className="right-button">
                     롤링 페이퍼 만들기
-                </a>
+                </Link>
             </div>
         </header>
     );
